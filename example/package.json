@@ -1,0 +1,8 @@
+{
+  "name": "daydream-controller-ts-example",
+  "version": "1.0.0",
+
+  "devDependencies": {
+    "typescript": "2.3.1"
+  }
+}

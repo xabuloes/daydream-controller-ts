@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daydream Controller with TypeScript</title>
+</head>
+<body>
+
+<button id="connect-daydream">Connect Daydream Controller</button>
+
+<hr/>
+
+<h2 id="daydream-connection-state">Not Connected</h2>
+
+<table>
+    <tr>
+        <td>Home Button clicked</td>
+        <td id="state-home">N/A</td>
+    </tr>
+    <tr>
+        <td>App Button clicked</td>
+        <td id="state-app">N/A</td>
+    </tr>
+    <tr>
+        <td>Panel clicked</td>
+        <td id="state-click">N/A</td>
+    </tr>
+    <tr>
+        <td>Orientation X-Axis</td>
+        <td id="state-xori">N/A</td>
+    </tr>
+    <tr>
+        <td>Orientation Y-Axis</td>
+        <td id="state-yori">N/A</td>
+    </tr>
+    <tr>
+        <td>Orientation Z-Axis</td>
+        <td id="state-zori">N/A</td>
+    </tr>
+
+</table>
+
+<p>Those are only example value from the controller. There are many other values that can be retrieved (see
+    IDaydreamControllerState interface).</p>
+
+</body>
+
+<script src="./dist/js/main.js"></script>
+</html>
